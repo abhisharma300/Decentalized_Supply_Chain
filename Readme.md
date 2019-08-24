@@ -6,7 +6,7 @@ One of the biggest challenges with supply chains is the lack of transparency in 
 
 This implementation considers the underlying asset to be Coffee Bean and demonstrates traceability & transparency as it moves through the supply chain.
 
-At the core of these transactions is trust + automate (negotiations) this can be achieved by shared ledger which allows companies to collaborate & interact effectively
+At the core of these transactions is trust + automation  (of negotiations) this can be achieved by shared ledger which allows companies to collaborate & interact effectively
 
 ## Architecture:
 
