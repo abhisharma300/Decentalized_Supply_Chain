@@ -8,6 +8,13 @@ This implementation considers the underlying asset to be Coffee Bean and demonst
 
 At the core of these transactions is trust + automation  (of negotiations) this can be achieved by shared ledger which allows companies to collaborate & interact effectively
 
+## Intended Benefits
+Using block-chain shared ledger to collect data about the product at each stage can provide an auditable process to determine that product is safe & coming from reliable surces. This transaparency allows you to have more confidence in the legitimacy of the product.
+It will also benefit a lot in tracing origin of product is valuable when product recall is needed
+Open Shared Ledger allows business & consumer to better track information about goods & services
+
+
+
 ## Architecture:
 
 BlockChain Solution Layers:
@@ -32,8 +39,8 @@ BlockChain Solution Layers:
 - Business Process:
 progression of assets through various steps of business process which is recorded on chain for lookback and evidence of trail
 
-**DAPP Client** The front-end of the application runs on the client's machine, powered by a lite-server. Using web3/metamask (using infura's endpoints), it communicates with the deployed smart contract from Ethereum Rinkeby Test Network. I
-
+**DAPP Client** The front-end of the application runs on the client's machine, powered by a lite-server. Using web3/metamask (using infura's endpoints), it communicates with the deployed smart contract from Ethereum Rinkeby Test Network. 
+It allows users to manage the product life-cycle as the product moves through the supply chain
 
 
 ## Supply Chain Modelling for Coffee Bean : 
@@ -103,25 +110,14 @@ In a separate terminal window, launch the DApp:
 npm run dev
 
 
-How Smart Contracts can improve supply chain
-a. Transparency
-b. Traceability
-c. Efficiency
-
-Use block-chain to collect data at each stage
-Product is safe & coming from reliable surces. 
-This transaparency allows you to have more confidence in the legitimacy of the product.
-Open Shared Ledger allows business & consumer to better track information about goods & services
-Traceability: information about product quality & its journey
-using smart contracts you can track any of steps, program contracts for them and then get accurate information.
-Smart sensors will capture how long a product was in shipment & for how long at what temperaure
-Trace origin of product is valuable when product recall is needed
 
 
 
 
 
-Automate trust between company, supplier & customers
+
+
+
 
 
 
@@ -132,10 +128,6 @@ Automate trust between company, supplier & customers
 
 
 
-As you’ve learned in the course, a blockchain-based supply chain management solution can provide more accurate tracking, helping reduce fraud by transparently tracking product originatio
-
-For this project, you will get to pick a supply chain of your choice and architect a DApp (Decentralized Application) authenticity management system backed by the Ethereum platform
-To do so, you’ll scope out the needs of the various actors in the supply chain and create smart contracts that help track product origination and verify product authenticity. Then tie it all together with a simple front-end that allows users to manage the product life-cycle as the product moves through the supply chain!
 
 
 
