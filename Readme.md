@@ -9,10 +9,7 @@ This implementation considers the underlying asset to be Coffee Bean and demonst
 At the core of these transactions is trust + automation  (of negotiations) this can be achieved by shared ledger which allows companies to collaborate & interact effectively
 
 ## Intended Benefits
-Using block-chain shared ledger to collect data about the product at each stage can provide an auditable process to determine that product is safe & coming from reliable surces. This transaparency allows you to have more confidence in the legitimacy of the product.
-It will also benefit a lot in tracing origin of product is valuable when product recall is needed
-Open Shared Ledger allows business & consumer to better track information about goods & services
-
+Using block-chain shared ledger to collect data about the product at each stage can provide an auditable process to determine that product is safe & coming from reliable surces. This transaparency allows consumer to have more confidence in the legitimacy of the product. It will also benefit a lot in tracing origin of product is valuable when product recall is needed
 
 
 ## Architecture:
@@ -23,10 +20,17 @@ BlockChain Solution Layers:
 
 -  Asset: any physical or digital entity that requires tracking in this case Coffe Bean
 	Asset Attributes:
-		a. 
-		b. Date/Time
-		c. Location
-		d. Grade
+		a. UPC (Unique Product Code)
+		b. Owner Address
+		c. Farmer Address
+		d. Farm Name
+		e. Farm Latitude
+		f. Farm Longitude
+		g. Product Notes
+		h. Product Price
+		i. Distributor Address
+		j. Retailer Address
+		k. Consumer Address
 	
 - Actors: who interact with this asset and trandform it from one state to another
 	a. Farmer
