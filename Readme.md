@@ -92,6 +92,12 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 ![Screenshot](Images/Farm_Product_Details.png)
 
 
+**State Changes of Asset through DAPP**
+
+
+![Screenshot](Images/FetchState.png)
+
+
 **Transaction History**
 The app listent to all events and displays them
 
