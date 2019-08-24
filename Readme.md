@@ -51,7 +51,7 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 
 ![Screenshot](Images/Activity_Digram.png)
 
-## Implementation Walkthorugh ##
+## Implementation Walkthrough ##
 
 **Product Overview**
 - SKU Is generated automatically by the system. Starts with 0 and increments as more items are added
