@@ -59,15 +59,9 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 
 ![Screenshot](Images/Product_Overview.png)
 
-**Farm Details**
-Attributes to be captured
-Farmer ID: The address of the miner. 
-Farm Information - Information of the farm =where asset is produced.
-Product Price
-Latitude
-Longitude
-Product Notes
-![Screenshot](Images/Farm_Details1.png)
+**Asset Attributes**
+
+
 
 
 **Transaction History**
