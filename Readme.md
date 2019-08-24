@@ -1,28 +1,28 @@
-Concept:
+# Decentralized Supply Chain
 
-One of the biggest challenges with supply chains is the lack of transparency in product tracking which leads to increased costs, counterfeit goods, and unnecessary waste.
-Decentralized implementation of supply chain helps in improving transparency in supply chain & traceability of the product w.r.t it's provenance.
-By effectively managing supply chain, companies are able to create more efficient solutions for customers. Raise their profits and lower the cost.
-This implementation considers the underlying asset to be Coffee Bean and demonstrates traceability & traceability as it moves through the supply chain.
+## Concept:
+
+One of the biggest challenges with supply chains is the lack of transparency in product tracking which leads to increased costs, counterfeit goods, and unnecessary waste. Decentralized implementation of supply chain helps in improving transparency in supply chain & traceability of the product w.r.t it's provenance. By effectively managing supply chain, companies are able to create more efficient solutions for customers.
+This implementation considers the underlying asset to be Coffee Bean and demonstrates traceability & transparency as it moves through the supply chain.
 
 At the core of these transactions is trust + automate (negotiations) this can be achieved by shared ledger which allows companies to collaborate & interact effectively
 
-Architecture:
+## Architecture:
 
 BlockChain Solution Layers:
 
-Smart contracts that help track product origination and verify product authenticity
+** Smart Contracts ** that help track product origination and verify product authenticity
 
-Asset: any physical or digital entity that requires tracking
-Asset Attributes:
-	a. Ownership
-	b. Date/Time
-	c. Location
-	d. Grade
+-  Asset: any physical or digital entity that requires tracking
+	Asset Attributes:
+		a. Ownership
+		b. Date/Time
+		c. Location
+		d. Grade
 	
-Actors: who interact with this asset and trandform it from one state to another
+- Actors: who interact with this asset and trandform it from one state to another
 
-Role Permissions: for each actor
+- Role Permissions: for each actor
 
 Business Process:
 progression of assets through various steps of business process which is recorded on chain for lookback and evidence of trail
