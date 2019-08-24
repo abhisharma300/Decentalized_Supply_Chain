@@ -85,7 +85,23 @@ The app listent to all events and displays them
 
 ![Screenshot](Images/Txn_History.png)
 
-`
+## Installation
+Truffle Verson
+Truffle v4.1.15 (core: 4.1.15)
+
+Node Version v10.15.3
+
+Solidity Version: Solidity v0.4.25 (solc-js)
+
+Launch Ganache: ganache-cli -l 10000000
+
+Compilation: truffle compile
+
+Migrate :  smart contracts to the locally running blockchain, ganache-cli:truffle migrate
+
+In a separate terminal window, launch the DApp:
+npm run dev
+
 
 How Smart Contracts can improve supply chain
 a. Transparency
