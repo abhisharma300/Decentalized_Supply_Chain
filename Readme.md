@@ -3,6 +3,7 @@
 ## Concept:
 
 One of the biggest challenges with supply chains is the lack of transparency in product tracking which leads to increased costs, counterfeit goods, and unnecessary waste. Decentralized implementation of supply chain helps in improving transparency in supply chain & traceability of the product w.r.t it's provenance. By effectively managing supply chain, companies are able to create more efficient solutions for customers.
+
 This implementation considers the underlying asset to be Coffee Bean and demonstrates traceability & transparency as it moves through the supply chain.
 
 At the core of these transactions is trust + automate (negotiations) this can be achieved by shared ledger which allows companies to collaborate & interact effectively
