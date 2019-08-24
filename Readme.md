@@ -67,7 +67,12 @@ Product Notes
 ![Screenshot](Images/Farm_Details1.png)
 
 
+**Transaction History**
+The app listent to all events and displays them
 
+![Screenshot](Images/Txn_History.png)
+
+`
 
 How Smart Contracts can improve supply chain
 a. Transparency
