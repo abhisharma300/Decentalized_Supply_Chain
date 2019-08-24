@@ -78,7 +78,7 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 
 - PurchaseItem [From Consumer] initiates transaction to mark an item as 'Purchased'. It will not be a permitted  if the current account is NOT a Consumer Role. And the current state of the Asset is not Received.
 
-![Screenshot](Images/Farm_Details1.png)
+![Screenshot](Images/Farm_Product_Details.png)
 
 **Transaction History**
 The app listent to all events and displays them
