@@ -51,10 +51,10 @@ Each stage involves a different supplier
 ## Implementation Walkthorugh ##
 
 **Product Overview**
+- SKU Is generated automatically by the system. Starts with 0 and increments as more items are added
+- UPC is the unique id of the asset using which the  actors can track . Fetch Data 1 and Fetch Data 2 will return the state of the asset from blockchain
 
 ![Screenshot](Images/Product_Overview.png)
-SKU Is generated automatically by the system. Starts with 0 and increments as more items are added
-UPC is the unique id of the asset using which the  actors can track . Fetch Data 1 and Fetch Data 2 will return the state of the asset from blockchain
 
 
 
