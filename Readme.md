@@ -48,11 +48,11 @@ Coffee Bean from farmer to customers
 Each stage involves a different supplier
 
 
-## Implementation Overview ##
+## Implementation Walkthorugh ##
 
 **Product Overview**
 
-
+![Screenshot](Images/Product_Overview.png)
 
 
 
