@@ -22,13 +22,17 @@ BlockChain Solution Layers:
 		d. Grade
 	
 - Actors: who interact with this asset and trandform it from one state to another
+	a. Farmer
+	b. Distributor
+	c. Retailer
+	d. Consumer
 
 - Role Permissions: for each actor
 
-Business Process:
+- Business Process:
 progression of assets through various steps of business process which is recorded on chain for lookback and evidence of trail
 
-Actions for Each Actor:
+
 
 Supply Chain for Coffee Bean : 
 
