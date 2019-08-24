@@ -95,7 +95,7 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 **State Changes of Asset through DAPP**
 
 
-![Screenshot](Images/FetchState.png)
+![Screenshot](Images/FetchState1.png)
 
 
 **Transaction History**
