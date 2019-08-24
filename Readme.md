@@ -60,10 +60,13 @@ Each stage involves a different supplier
 Attributes to be captured
 Farmer ID: The address of the miner. 
 Farm Information - Information of the farm =where asset is produced.
+Product Price
 Latitude
 Longitude
 Product Notes
 ![Screenshot](Images/Farm_Details1.png)
+
+
 
 
 How Smart Contracts can improve supply chain
@@ -82,7 +85,7 @@ Trace origin of product is valuable when product recall is needed
 
 
 
-Efficiency: by programming smart contracts we can answer how fast a process is , how much it costs. Smart contracts can handle automation of some part of negotiations
+
 
 Automate trust between company, supplier & customers
 
