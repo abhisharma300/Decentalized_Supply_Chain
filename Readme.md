@@ -59,17 +59,26 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 
 ![Screenshot](Images/Product_Overview.png)
 
-**Asset Attributes**
-
 **State Changes of Asset through DAPP**
 
 - Harvest [From Farmer] initiates transaction to Harvest a new asset identified by the inserted upc. It will not be a permitted  if the current account is NOT a FarmerRole.
-- Process [From Farmer] initiates transaction to Process the Harvested Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Harvested
-- Pack [From Farmer] initiates transaction to Pack the Processed Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Processed
-- List for Sale [From Farmer] initiates transaction to List for Sale the Processed Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Packed
-- Buy [From Distributor] initiates transaction to Buy the asset Listed for Sale. It will not be a permitted  if the current account is NOT a Distributor Role. And the current state of the Asset is not Packed.
-  This transaction is payable as the distributor has to provide minimum ether to paid to farmer as per the price of the product. Excess ether is transferred back to the distributor.
 
+- Process [From Farmer] initiates transaction to Process the Harvested Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Harvested
+
+- Pack [From Farmer] initiates transaction to Pack the Processed Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Processed
+
+- List for Sale [From Farmer] initiates transaction to List for Sale the Processed Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Packed
+
+- Buy [From Distributor] initiates transaction to Buy the asset Listed for Sale. It will not be a permitted  if the current account is NOT a Distributor Role. And the current state of the Asset is not Listed for Sale.
+  This transaction is payable as the distributor has to provide minimum ether to paid to farmer as per the price of the product. Excess ether is transferred back to the distributor.
+  
+- Shipped [From Distributor] initiates transaction to Ship the asset Listed to Retailer It will not be a permitted  if the current account is NOT a Distributor Role. And the current state of the Asset is not Sold.
+
+- Received [From Retailer] initiates transaction to mark an item as 'Received'. It will not be a permitted  if the current account is NOT a Retailer Role. And the current state of the Asset is not Shipped.
+
+- PurchaseItem [From Consumer] initiates transaction to mark an item as 'Purchased'. It will not be a permitted  if the current account is NOT a Consumer Role. And the current state of the Asset is not Received.
+
+![Screenshot](Images/Farm_Details1.png)
 
 **Transaction History**
 The app listent to all events and displays them
