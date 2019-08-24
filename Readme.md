@@ -14,9 +14,9 @@ BlockChain Solution Layers:
 
 **Smart Contracts** that help track product origination and verify product authenticity
 
--  Asset: any physical or digital entity that requires tracking
+-  Asset: any physical or digital entity that requires tracking in this case Coffe Bean
 	Asset Attributes:
-		a. Ownership
+		a. 
 		b. Date/Time
 		c. Location
 		d. Grade
@@ -38,7 +38,7 @@ progression of assets through various steps of business process which is recorde
 
 ## Supply Chain Modelling for Coffee Bean : 
 
-The underlying assset i.e. coffee bean in this supply chain moves through below stats through interaction with actors (Farmer, Distributor, Retailer, Consumer( 
+The underlying assset i.e. coffee bean in this supply chain moves through below states via interaction with actors (Farmer, Distributor, Retailer, Consumer)
 
 1. Harvested
 2. Processed
@@ -61,7 +61,14 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 
 **Asset Attributes**
 
+**State Changes of Asset through DAPP**
 
+- Harvest [From Farmer] initiates transaction to Harvest a new asset identified by the inserted upc. It will not be a permitted  if the current account is NOT a FarmerRole.
+- Process [From Farmer] initiates transaction to Process the Harvested Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Harvested
+- Pack [From Farmer] initiates transaction to Pack the Processed Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Processed
+- List for Sale [From Farmer] initiates transaction to List for Sale the Processed Asset. It will not be a permitted  if the current account is NOT a FarmerRole. And the current state of the Asset is not Packed
+- Buy [From Distributor] initiates transaction to Buy the asset Listed for Sale. It will not be a permitted  if the current account is NOT a Distributor Role. And the current state of the Asset is not Packed.
+  This transaction is payable as the distributor has to provide minimum ether to paid to farmer as per the price of the product. Excess ether is transferred back to the distributor.
 
 
 **Transaction History**
