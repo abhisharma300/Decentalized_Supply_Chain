@@ -38,15 +38,18 @@ progression of assets through various steps of business process which is recorde
 
 ## Supply Chain Modelling for Coffee Bean : 
 
+The underlying assset i.e. coffee bean in this supply chain moves through below stats through interaction with actors (Farmer, Distributor, Retailer, Consumer( 
 
-Coffee Bean from farmer to customers
-1. Growing
-2. Harvesting
-3. Packing
-4. Shipping
-5. Roasting
-Each stage involves a different supplier
+1. Harvested
+2. Processed
+3. Packed
+4. Lised for Sale
+5. Buy
+6. Ship
+7. Receive
+8. Purchase
 
+![Screenshot](Images/Activity_Digram.png)
 
 ## Implementation Walkthorugh ##
 
