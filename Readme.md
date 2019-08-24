@@ -12,7 +12,7 @@ At the core of these transactions is trust + automation  (of negotiations) this 
 
 BlockChain Solution Layers:
 
-** Smart Contracts ** that help track product origination and verify product authenticity
+**Smart Contracts** that help track product origination and verify product authenticity
 
 -  Asset: any physical or digital entity that requires tracking
 	Asset Attributes:
