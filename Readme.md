@@ -32,6 +32,8 @@ BlockChain Solution Layers:
 - Business Process:
 progression of assets through various steps of business process which is recorded on chain for lookback and evidence of trail
 
+**DAPP Client** The front-end of the application runs on the client's machine, powered by a lite-server. Using web3/metamask (using infura's endpoints), it communicates with the deployed smart contract from Ethereum Rinkeby Test Network. I
+
 
 
 ## Supply Chain Modelling for Coffee Bean : 
@@ -46,6 +48,9 @@ Coffee Bean from farmer to customers
 Each stage involves a different supplier
 
 
+## Implementation Overview ##
+
+**Product Overview**
 
 
 
