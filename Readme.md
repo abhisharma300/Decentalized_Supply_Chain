@@ -102,7 +102,7 @@ Using "Fetch", the current state of the Asset identified by UPC is retrieved fro
 **Transaction History**
 The app listent to all events and displays them
 
-![Screenshot](Images/Txn_History.png)
+![Screenshot](Images/Txn1.png)
 
 ## Installation
 Truffle Verson
