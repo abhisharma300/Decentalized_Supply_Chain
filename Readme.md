@@ -92,8 +92,9 @@ The underlying assset i.e. coffee bean in this supply chain moves through below 
 ![Screenshot](Images/Farm_Product_Details.png)
 
 
-**State Changes of Asset through DAPP**
+**Fetch State of Asset through DAPP**
 
+Using "Fetch", the current state of the Asset identified by UPC is retrieved from the blockchain and displayed 
 
 ![Screenshot](Images/FetchState1.png)
 
