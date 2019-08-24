@@ -56,6 +56,14 @@ Each stage involves a different supplier
 
 ![Screenshot](Images/Product_Overview.png)
 
+**Farm Details**
+Attributes to be captured
+Farmer ID: The address of the miner. 
+Farm Information - Information of the farm =where asset is produced.
+Latitude
+Longitude
+Product Notes
+![Screenshot](Images/Farm_Details.png)
 
 
 How Smart Contracts can improve supply chain
